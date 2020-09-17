@@ -3,7 +3,7 @@ package IMT3881;
 import javax.swing.*;
 import java.awt.*;
 
-public class MaxClickGUI extends Game {
+public class MaxClickGUI  {
 
     private JButton clickMe ;
     private int sec;
@@ -35,6 +35,7 @@ public class MaxClickGUI extends Game {
 
 
         maxFrame.setVisible(true);
+
         this.clickMe.setEnabled(false);
         maxFrame.setTitle("Maximum Clicks");
         maxFrame.setResizable(false);
@@ -124,7 +125,7 @@ public class MaxClickGUI extends Game {
 
 
 
-        maxFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        maxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //maxFrame.pack();
         maxFrame.setVisible(true);
     }

@@ -6,6 +6,6 @@ public class Main {
 IMT3881.MainGUI mainGui = new IMT3881.MainGUI();
 mainGui.MainPage();
 RollDice rollDice = new RollDice();
-
+        System.out.println(rollDice.Roll());
     }
 }
