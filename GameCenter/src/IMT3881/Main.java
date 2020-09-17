@@ -3,8 +3,8 @@ package IMT3881;
 public class Main {
 
     public static void main(String[] args) {
-GUI gui = new GUI();
-gui.MainPage();
+IMT3881.MainGUI mainGui = new IMT3881.MainGUI();
+mainGui.MainPage();
 RollDice rollDice = new RollDice();
 
     }
